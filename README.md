@@ -3,7 +3,7 @@
 # config.txt配置
 |配置名|python数据类型|默认值|描述|
 |-------|---|---|---|
-|db_name|str|1.db|打开或创建的数据库文件名称|
+|db_name|str|"1.db"|打开或创建的数据库文件名称|
 |table_name|str|"temperature"|从数据库打开或创建的表名称|
 |db_commit_interval|int|5|每隔几次将结果数据提交进数据库|
 |serial_collection_interval|int|2|每隔几秒读取串口数据|
