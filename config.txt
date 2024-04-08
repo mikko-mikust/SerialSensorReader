@@ -1,0 +1,11 @@
+{
+"db_name" : "1.db",
+"table_name":"temperature",
+"db_commit_interval":5,
+"serial_collection_interval":2,
+"serial_name":"COM5",
+"serial_baudrate":9600,
+"serial_timeout":2,
+"temp_read_instruction":b"\x01\x03\x00\x00\x00\x01\x84\x0A",
+"humidity_read_instruction":b"\x01\x03\x00\x01\x00\x01\xD5\xCA",
+}
